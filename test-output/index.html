@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -110,6 +110,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestVagrantAssessment" title="RecentlyPlaySongCode.RecentlyPlayedSongStoreTest" class="method navigator-link" hash-for-method="validateAddNewSongsWithNewUser">validateAddNewSongsWithNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestVagrantAssessment" title="RecentlyPlaySongCode.RecentlyPlayedSongStoreTest" class="method navigator-link" hash-for-method="validateTheCapacityDoNotExceeded">validateTheCapacityDoNotExceeded</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,6 +152,13 @@
                   <a name="validateAddNewSongsWithNewUser">
                   </a> <!-- validateAddNewSongsWithNewUser -->
                   <span class="method-name">validateAddNewSongsWithNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTheCapacityDoNotExceeded">
+                  </a> <!-- validateTheCapacityDoNotExceeded -->
+                  <span class="method-name">validateTheCapacityDoNotExceeded</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -213,7 +225,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateAddNewSongInQueue')
 data.setCell(0, 2, 'RecentlyPlaySongCode.RecentlyPlayedSongStoreTest')
@@ -226,6 +238,10 @@ data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateToGetRecentlyPlayedSongsEmpty')
 data.setCell(2, 2, 'RecentlyPlaySongCode.RecentlyPlayedSongStoreTest')
 data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateTheCapacityDoNotExceeded')
+data.setCell(3, 2, 'RecentlyPlaySongCode.RecentlyPlayedSongStoreTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['TestVagrantAssessment']= { tableData: data, tableDiv: 'times-div-TestVagrantAssessment'}
 return data;
 }
@@ -242,20 +258,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">validateAddNewSongsWithNewUser</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">2 added new song in Queue: [S2, S3, S4]</span>
-                <span class="reporter-method-output">2 added new song in Queue: [S3, S4, S2]</span>
-                <span class="reporter-method-output">2 added new song in Queue: [S4, S2, S1]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">validateAddNewSongInQueue</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">user1 added new song in Queue: [S1, S2, S3]</span>
                 <span class="reporter-method-output">user1 added new song in Queue: [S2, S3, S4]</span>
                 <span class="reporter-method-output">user1 added new song in Queue: [S3, S4, S2]</span>
                 <span class="reporter-method-output">user1 added new song in Queue: [S4, S2, S1]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateAddNewSongsWithNewUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2 added new song in Queue: [S2, S3, S4]</span>
+                <span class="reporter-method-output">2 added new song in Queue: [S3, S4, S2]</span>
+                <span class="reporter-method-output">2 added new song in Queue: [S4, S2, S1]</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -282,21 +298,29 @@ return data;
                 <span class="method-name">validateAddNewSongInQueue</span>
                 <span class="method-start">4 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAddNewSongsWithNewUser</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateTheCapacityDoNotExceeded</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">25 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateToGetRecentlyPlayedSongsEmpty</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">25 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
